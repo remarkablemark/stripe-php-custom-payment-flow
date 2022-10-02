@@ -1,20 +1,23 @@
-# Accept a Payment
+# Stripe PHP custom payment flow
 
-Build a simple checkout form to collect payment details. Included are some basic
-build and run scripts you can use to start up the application.
+## Accept a Payment
+
+Build a simple checkout form to collect payment details. Included are some basic build and run scripts you can use to start up the application.
+
+https://stripe.com/docs/payments/quickstart
 
 ## Running the sample
 
-1. Build the server
+Build the server:
 
-~~~
+```sh
 composer install
-~~~
+```
 
-2. Run the server
+Run the server:
 
-~~~
-php -S 127.0.0.1:4242 --docroot=public
-~~~
+```sh
+php -S 127.0.0.1:4242
+```
 
-3. Go to [http://localhost:4242/public/checkout.html](http://localhost:4242/public/checkout.html)
+Go to http://localhost:4242/public/checkout.html
